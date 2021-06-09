@@ -11,7 +11,7 @@
         android:name="androidx.navigation.fragment.NavHostFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:defaultNavGraph="true"
+        app:defaultNavHost="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -21,7 +21,7 @@
     <!--
     name -> contains the navHost impl class name
     navGraph -> associates our NavHostFragment with a navigation graph
-    defaultNavGraph -> ensures our NavHostFragment intercepts the system back button
+    defaultNavHost -> ensures our NavHostFragment intercepts the system back button
     -->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

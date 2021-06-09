@@ -20,8 +20,8 @@
         <item name="android:textColor">@color/white</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textSize">@dimen/text_size</item>
-        <item name="android:paddingTop">@dimen/padding</item>
-        <item name="android:paddingBottom">@dimen/padding</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
     </style>
     <style name="Theme.DscFirebaseAuth.CustomTextInputLayout"
         parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">

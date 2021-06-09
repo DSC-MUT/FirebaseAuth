@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+    id "androidx.navigation.safeargs.kotlin"
 }
 
 android {
@@ -64,6 +65,9 @@ dependencies {
 
     //Sweet Alert Dialog
     implementation "com.github.f0ris.sweetalert:library:$sweet_dialog_version"
+
+    //Lottie
+    implementation 'com.airbnb.android:lottie:3.6.0'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
 
     testImplementation 'junit:junit:4.13.2'

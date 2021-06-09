@@ -16,6 +16,9 @@
         <action
             android:id="@+id/action_loginFragment_to_dashBoardFragment"
             app:destination="@id/dashBoardFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_resetPasswordFragment"
+            app:destination="@id/resetPasswordFragment" />
     </fragment>
     <fragment
         android:id="@+id/registerFragment"
@@ -31,4 +34,9 @@
         android:name="tech.danielwaiguru.dscfirebaseauth.home.DashBoardFragment"
         android:label="fragment_dash_board"
         tools:layout="@layout/fragment_dash_board" />
+    <fragment
+        android:id="@+id/resetPasswordFragment"
+        android:name="tech.danielwaiguru.dscfirebaseauth.auth.reset_password.ResetPasswordFragment"
+        android:label="fragment_reset_password"
+        tools:layout="@layout/fragment_reset_password" />
 </navigation>
