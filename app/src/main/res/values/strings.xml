@@ -17,4 +17,10 @@
     <string name="confirm_password">Confirm Password</string>
     <string name="name">Name</string>
     <string name="creation_account">Create Account</string>
+    <string name="login_sucess">Login Successful</string>
+    <string name="link_success">Check your email for a reset link</string>
+    <string name="authenticating">Authenticating…</string>
+    <string name="register_sucess">Registration Successful</string>
+    <string name="creating">Creating Account…</string>
+    <string name="fullname">%s %s</string>
 </resources>
