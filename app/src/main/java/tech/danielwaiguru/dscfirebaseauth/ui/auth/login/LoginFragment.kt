@@ -1,4 +1,4 @@
-package tech.danielwaiguru.dscfirebaseauth.auth.login
+package tech.danielwaiguru.dscfirebaseauth.ui.auth.login
 
 import android.os.Bundle
 import android.view.LayoutInflater

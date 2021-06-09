@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/loginFragment"
-        android:name="tech.danielwaiguru.dscfirebaseauth.auth.login.LoginFragment"
+        android:name="tech.danielwaiguru.dscfirebaseauth.ui.auth.login.LoginFragment"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" >
         <action
@@ -22,7 +22,7 @@
     </fragment>
     <fragment
         android:id="@+id/registerFragment"
-        android:name="tech.danielwaiguru.dscfirebaseauth.auth.register.RegisterFragment"
+        android:name="tech.danielwaiguru.dscfirebaseauth.ui.auth.register.RegisterFragment"
         android:label="fragment_register"
         tools:layout="@layout/fragment_register" >
         <action
@@ -31,12 +31,12 @@
     </fragment>
     <fragment
         android:id="@+id/dashBoardFragment"
-        android:name="tech.danielwaiguru.dscfirebaseauth.home.DashBoardFragment"
+        android:name="tech.danielwaiguru.dscfirebaseauth.ui.home.DashBoardFragment"
         android:label="fragment_dash_board"
         tools:layout="@layout/fragment_dash_board" />
     <fragment
         android:id="@+id/resetPasswordFragment"
-        android:name="tech.danielwaiguru.dscfirebaseauth.auth.reset_password.ResetPasswordFragment"
+        android:name="tech.danielwaiguru.dscfirebaseauth.ui.auth.reset_password.ResetPasswordFragment"
         android:label="fragment_reset_password"
         tools:layout="@layout/fragment_reset_password" />
 </navigation>
