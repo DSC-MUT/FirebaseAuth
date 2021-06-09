@@ -1,0 +1,2 @@
+rootProject.name = "DscFirebaseAuth"
+include ':app'
